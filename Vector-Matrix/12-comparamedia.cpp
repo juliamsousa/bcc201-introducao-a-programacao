@@ -6,7 +6,7 @@ using namespace std;
  * O programa calcula a media aritmetica dos elementos do vetor e determina quais elementos 
  * do vetor sao menores que a media. 
  * O programa deve imprimir os elementos menores e suas posicoes. 
- * Caso n~ao seja encontrado nenhum elementos menor que a media, o usuario 
+ * Caso nao seja encontrado nenhum elementos menor que a media, o usuario 
  * deve ser notificado atraves de uma mensagem.
  */
 
