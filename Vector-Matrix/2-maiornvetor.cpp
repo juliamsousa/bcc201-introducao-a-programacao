@@ -1,14 +1,24 @@
 #include <iostream>
 using namespace std;
 
+/**
+ * Construa um algoritmo que leia um vetor de n 
+ * posicoes de inteiros e determine qual o maior e 
+ * o menor valor existente neste vetor.
+ */ 
+
 int main()
 {
 	int n, maior;
+
+	// recebe do o usuario o tamanho n do vetor
 	cout<<"Digite o valor n desejado: "<<endl;
 	cin>>n;
 	
+	// aloca dinamicamente um vetor de n posicoes
 	int *vet = new int [n];
 	
+	// le os inteiros e armazena no vetor
 	for (int i=0; i<n; i++)
 	{
 		cout<<"Digite o termo do vetor: "<<endl;
